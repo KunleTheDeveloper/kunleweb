@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import user from "../assets/user.png";
+import user from "../assets/user.PNG";
 import { Github, Linkedin, Twitter, ArrowRight, Download, MessageCircle } from "lucide-react";
 
 // Animation variants for staggered text revealing
