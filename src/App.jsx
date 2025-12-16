@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './components/NavBar'
 import Hero from './components/Hero'
 import Float from './components/Float'
 import About from './components/About'
