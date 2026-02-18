@@ -4,43 +4,43 @@ import { Github, ExternalLink } from "lucide-react"; // We'll use these icons
 // Mock data array for projects (Easier to manage than repeating JSX)
 const projectData = [
   {
-    title: "StichSmart E-commerce",
-    description: "A modern e-commerce platform that connects users with professional tailors for custom clothing delivered to their doorstep. Designed for scalability and ease-of-use.",
+    title: "Architecture Website",
+    description: "🏛️ VOSS Architecture Studio — Luxury minimal with a cream/stone palette, custom cursor, serif typography (Cormorant Garamond + Syne), scroll reveal animations, and a full multi-section layout.",
     tech: ["HTML", "CSS", "JavaScript", "Vercel"],
-    image: "/src/assets/stitch-smart.PNG", // Use the original image import path
-    live: "https://stitch-smart-nine.vercel.app/#how-it-works",
+    image: "/src/assets/voss-arch (1).png", // Use the original image import path
+    live: "https://voss-arch.vercel.app/",
     source: "#",
   },
   {
-    title: "E-learning Platform",
-    description: "An E-learning Platform for University with sleek navigation.",
+    title: "Photographer Portfolio Website",
+    description: "📷 Leila Noir Photography — Dark magazine-style with a custom mix-blend-mode cursor, masonry photo grid, award showcase, and series cards with hover reveals.",
     tech: ["HTML", "CSS", "JavaScript", "Vercel"],
-    image: "/src/assets/stitch-smart.PNG", // Use the original image import path
-    live: "https://e-learning-platform-n673.vercel.app/",
+    image: "/src/assets/voss-arch (2).png", // Use the original image import path
+    live: "https://pg-portfolio-livid.vercel.app/",
     source: "#",
   },
   {
-    title: "StichSmart E-commerce",
-    description: "A modern e-commerce platform that connects users with professional tailors for custom clothing delivered to their doorstep. Designed for scalability and ease-of-use.",
+    title: "Gym Website",
+    description: " 💪 APEX Fitness Gym — Bold high-voltage energy with volt green accents, diagonal clip-path buttons, running ticker, program cards, trainer gallery, and a pricing section.",
     tech: ["React JS", "Tailwind CSS", "Vercel"],
-    image: "/src/assets/stitch-smart.PNG", // Use the original image import path
-    live: "https://stitch-smart-nine.vercel.app/#how-it-works",
+    image: "/src/assets/voss-arch (3).png", // Use the original image import path
+    live: "https://apex-gym-sooty.vercel.app/",
     source: "#",
   },
     {
-    title: "StichSmart E-commerce",
-    description: "A modern e-commerce platform that connects users with professional tailors for custom clothing delivered to their doorstep. Designed for scalability and ease-of-use.",
+    title: "Law Firm Website",
+    description: "⚖️ Chambers & Osei — Law Firm · Dark navy with gold accents, practice areas grid, attorney gallery, landmark case results, full consultation form. Fonts: Crimson Pro + Jost",
     tech: ["HTML", "CSS", "JavaScript", "Vercel"],
-    image: "/src/assets/stitch-smart.PNG", // Use the original image import path
-    live: "https://stitch-smart-nine.vercel.app/#how-it-works",
+    image: "/src/assets/law-frim.png", // Use the original image import path
+    live: "https://law-firm-psi-three.vercel.app/",
     source: "#",
   },
   {
-    title: "E-learning Platform",
+    title: "Education Body Website",
     description: "An E-learning Platform for University with sleek navigation.",
     tech: ["HTML", "CSS", "JavaScript", "Vercel"],
-    image: "/src/assets/stitch-smart.PNG", // Use the original image import path
-    live: "https://e-learning-platform-n673.vercel.app/",
+    image: "/src/assets/iicep-web.png", // Use the original image import path
+    live: "https://iicep.site",
     source: "#",
   },
   {
@@ -50,32 +50,7 @@ const projectData = [
     image: "/src/assets/stitch-smart.PNG", // Use the original image import path
     live: "https://stitch-smart-nine.vercel.app/#how-it-works",
     source: "#",
-  },
-      {
-    title: "Brand Web Design",
-    description: "A modern e-commerce platform that connects users with professional tailors for custom clothing delivered to their doorstep. Designed for scalability and ease-of-use.",
-    tech: ["HTML", "CSS", "JavaScript", "Vercel"],
-    image: "/src/assets/stitch-smart.PNG", // Use the original image import path
-    live: "https://stitch-smart-nine.vercel.app/#how-it-works",
-    source: "#",
-  },
-  {
-    title: "Business Web Design",
-    description: "An E-learning Platform for University with sleek navigation.",
-    tech: ["HTML", "CSS", "JavaScript", "Vercel"],
-    image: "/src/assets/stitch-smart.PNG", // Use the original image import path
-    live: "https://e-learning-platform-n673.vercel.app/",
-    source: "#",
-  },
-  {
-    title: "E-commerce Web Design",
-    description: "A modern e-commerce platform that connects users with professional tailors for custom clothing delivered to their doorstep. Designed for scalability and ease-of-use.",
-    tech: ["React JS", "Tailwind CSS", "Vercel"],
-    image: "/src/assets/stitch-smart.PNG", // Use the original image import path
-    live: "https://stitch-smart-nine.vercel.app/#how-it-works",
-    source: "#",
-  },
-  
+  }
   
   // You can easily add more projects here!
 ];
