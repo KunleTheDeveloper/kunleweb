@@ -14,7 +14,7 @@ const projectData = [
     title: "Photographer Portfolio Website",
     description: "📷 Leila Noir Photography — Dark magazine-style with a custom mix-blend-mode cursor, masonry photo grid, award showcase, and series cards with hover reveals.",
     tech: ["HTML", "CSS", "JavaScript", "Vercel"],
-    image: "/src/assets/pg-portfolio.png", // Use the original image import path
+    image: "/src/assets/pg-portfolio.png", // Use the original image import path 
     live: "https://pg-portfolio-livid.vercel.app/",
   },
   {
@@ -37,7 +37,6 @@ const projectData = [
     tech: ["HTML", "CSS", "JavaScript", "Vercel"],
     image: "/src/assets/iicep-web.png", // Use the original image import path
     live: "https://iicep.site",
-    source: "#",
   },
   {
     title: "StichSmart E-commerce",
@@ -118,15 +117,6 @@ export default function Projects() {
                     className="flex items-center gap-2 text-green-600 font-semibold hover:text-green-700 transition"
                   >
                     <ExternalLink size={18} /> Live Demo
-                  </a>
-
-                  <a
-                    href={project.source}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-500 font-semibold hover:text-gray-700 transition"
-                  >
-                    <Github size={18} /> Source
                   </a>
                 </div>
               </div>
